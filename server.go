@@ -8,7 +8,7 @@ import (
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/bright-luminous/pokedex/graph"
 	"github.com/bright-luminous/pokedex/graph/generated"
-	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/v5"
 )
 
 const defaultPort = "8080"
